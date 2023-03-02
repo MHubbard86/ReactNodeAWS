@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Layout from '../../../components/Layout';
 import Router from 'next/router';
 import axios from 'axios';

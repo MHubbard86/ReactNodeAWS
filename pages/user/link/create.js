@@ -1,5 +1,5 @@
 // imports
-import { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Layout from '../../../components/Layout';
 import axios from 'axios';
 import { getCookie, isAuth } from '../../../helpers/auth';

@@ -1,5 +1,5 @@
 import dynamic from 'next/dynamic';
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Resizer from 'react-image-file-resizer';
 const ReactQuill = dynamic(() => import('react-quill'), { ssr: false });
